@@ -8,6 +8,7 @@ compatibility_flags = ["nodejs_compat"]
 #    用户零操作（CF 2025 自动资源 provisioning）。
 [[kv_namespaces]]
 binding = "OUTBOX"
+id = "00bc50a6e8b44152ab4c4b589ea2207e"
 
 # secret 不写这里。一键部署页会根据 .dev.vars.example 提示填；
 # 或部署后在 CF 面板 → Worker → 变量和秘密 添加：
